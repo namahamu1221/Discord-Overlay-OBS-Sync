@@ -19,7 +19,7 @@ Discord-Overlay が変更した Discord StreamKit のブラウザソース URL �
 - OBS Studio（Python スクリプト対応版）
 - OBS がサポートする Python のインストール・設定
 - OBS に作成した**独立した**ブラウザソース 2 個（「参照」ではなく、それぞれ新規作成）
-- Discord-Overlay（同期元の URL を自動更新するため。独立した別プロジェクト）
+- [Discord-Overlay（Kenshin9977）](https://github.com/Kenshin9977/Discord-Overlay/)（同期元の URL を自動更新するため。独立した別プロジェクト）
 
 ## 使い方
 
@@ -46,6 +46,12 @@ Discord-Overlay が変更した Discord StreamKit のブラウザソース URL �
 - ソース名が一致しない、またはソースがブラウザソースでない場合、同期しません。
 - URL が同じでも同期先の設定を変更した場合、次に同期元の URL が変化するまで上書きされません。
 - 実際の OBS 環境での動作確認は各自の環境で行ってください。
+
+## 関連プロジェクト
+
+- **[Kenshin9977/Discord-Overlay](https://github.com/Kenshin9977/Discord-Overlay/)** — Discord の VC 移動に応じて OBS の StreamKit ブラウザソース URL を更新するツール。
+
+本スクリプトは、このツールが更新した URL を別のブラウザソースにも同期するための**非公式・独立した補助ツール**です。Discord-Overlay の開発元による公式の拡張機能ではありません。
 
 ## ライセンス
 
