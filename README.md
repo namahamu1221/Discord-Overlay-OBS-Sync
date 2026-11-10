@@ -27,7 +27,7 @@ Discord-Overlay が変更した Discord StreamKit のブラウザソース URL �
 2. 2 つのソースにそれぞれ必要なカスタム CSS を設定する。
 3. Discord-Overlay 側で **同期元**のブラウザソースを更新するよう設定する。
 4. OBS の **ツール → スクリプト → Python の設定** で、対応する Python を指定する。
-5. **スクリプト** の `+` ボタンから `discord_overlay_url_sync.py` を追加する。
+5. **スクリプト** の `+` ボタンから `Discord_Overlay_OBS_Sync.py` を追加する。
 6. 「同期元のブラウザソース名」と「同期先のブラウザソース名」に、OBS での正確なソース名を入力する。
 7. Discord の VC を移動し、両方の URL が更新されることを確認する。
 
